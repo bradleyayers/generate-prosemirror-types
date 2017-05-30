@@ -1,0 +1,20 @@
+{
+  "name": "generate-prosemirror-types",
+  "private": true,
+  "version": "1.0.0",
+  "description": "This package serves as a workspace for building TypeScript definitions for ProseMirror. It consists of:",
+  "main": "index.js",
+  "author": "Bradley Ayers <bradley.ayers@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^7.0.22",
+    "buildtypedefs": "^0.1.3",
+    "getdocs2ts": "^2.1.0",
+    "ts-node": "^3.0.4",
+    "typescript": "^2.3.3"
+  },
+  "scripts": {
+    "compile-all": "git submodule foreach '../node_modules/.bin/getdocs2ts --inDir src --outDir ../types/$(basename $(pwd))'",
+    "compile": "./bin/compile.sh"
+  }
+}

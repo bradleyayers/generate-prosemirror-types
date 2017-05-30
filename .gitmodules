@@ -1,0 +1,51 @@
+[submodule "prosemirror-state"]
+	path = prosemirror-state
+	url = git@github.com:ProseMirror/prosemirror-state.git
+[submodule "prosemirror-view"]
+	path = prosemirror-view
+	url = git@github.com:ProseMirror/prosemirror-view
+[submodule "prosemirror-test-builder"]
+	path = prosemirror-test-builder
+	url = git@github.com:ProseMirror/prosemirror-test-builder
+[submodule "prosemirror-dropcursor"]
+	path = prosemirror-dropcursor
+	url = git@github.com:ProseMirror/prosemirror-dropcursor
+[submodule "prosemirror-markdown"]
+	path = prosemirror-markdown
+	url = git@github.com:ProseMirror/prosemirror-markdown
+[submodule "prosemirror-example-setup"]
+	path = prosemirror-example-setup
+	url = git@github.com:ProseMirror/prosemirror-example-setup
+[submodule "prosemirror-menu"]
+	path = prosemirror-menu
+	url = git@github.com:ProseMirror/prosemirror-menu
+[submodule "prosemirror-schema-table"]
+	path = prosemirror-schema-table
+	url = git@github.com:ProseMirror/prosemirror-schema-table
+[submodule "prosemirror-schema-list"]
+	path = prosemirror-schema-list
+	url = git@github.com:ProseMirror/prosemirror-schema-list
+[submodule "prosemirror-schema-basic"]
+	path = prosemirror-schema-basic
+	url = git@github.com:ProseMirror/prosemirror-schema-basic
+[submodule "prosemirror-commands"]
+	path = prosemirror-commands
+	url = git@github.com:ProseMirror/prosemirror-commands
+[submodule "prosemirror-collab"]
+	path = prosemirror-collab
+	url = git@github.com:ProseMirror/prosemirror-collab
+[submodule "prosemirror-history"]
+	path = prosemirror-history
+	url = git@github.com:ProseMirror/prosemirror-history
+[submodule "prosemirror-inputrules"]
+	path = prosemirror-inputrules
+	url = git@github.com:ProseMirror/prosemirror-inputrules
+[submodule "prosemirror-keymap"]
+	path = prosemirror-keymap
+	url = git@github.com:ProseMirror/prosemirror-keymap
+[submodule "prosemirror-transform"]
+	path = prosemirror-transform
+	url = git@github.com:ProseMirror/prosemirror-transform
+[submodule "prosemirror-model"]
+	path = prosemirror-model
+	url = git@github.com:ProseMirror/prosemirror-model
