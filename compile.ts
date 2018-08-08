@@ -86,6 +86,7 @@ const externals: TypeInfos = {
     Mappable: { definedIn: 'prosemirror-transform' },
     MapResult: { definedIn: 'prosemirror-transform' },
     Step: { definedIn: 'prosemirror-transform' },
+    StepMap: { definedIn: 'prosemirror-transform' },
     Transform: { definedIn: 'prosemirror-transform' },
 
     // prosemirror-view
@@ -126,6 +127,7 @@ function externalsFor(name: string): TypeInfos {
 
 const compiler = new Compiler('../DefinitelyTyped/types/');
 
+compiler.compile('prosemirror-changeset');
 compiler.compile('prosemirror-collab');
 compiler.compile('prosemirror-commands');
 compiler.compile('prosemirror-dropcursor');

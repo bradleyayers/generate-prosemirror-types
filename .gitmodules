@@ -49,3 +49,6 @@
 [submodule "prosemirror-model"]
 	path = prosemirror-model
 	url = git@github.com:ProseMirror/prosemirror-model
+[submodule "prosemirror-changeset"]
+	path = prosemirror-changeset
+	url = git@github.com:ProseMirror/prosemirror-changeset
